@@ -317,7 +317,7 @@
     (at 63.5998 85.598 270)
     (path /5F9BF43B)
     (attr smd)
-    (fp_text reference Y1 (at 2.7305 3.556 180) (layer F.SilkS)
+    (fp_text reference Y1 (at 2.7305 -0.0272 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value X322516MLB4SI (at -1.397 0.889 90) (layer F.Fab)

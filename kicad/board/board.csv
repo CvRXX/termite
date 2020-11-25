@@ -1,33 +1,33 @@
 Comment,Designator,Footprint,LCSC
-"103565 3.7v lipo battery","BT1","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","C152154 "
-"8pF","C1,C2","Capacitor_SMD:C_0402_1005Metric","C26408"
-"10nf","C11","Capacitor_SMD:C_0603_1608Metric","C57112"
-"1uF","C4,C12,C13","Capacitor_SMD:C_1206_3216Metric","C1848"
-"100nF","C5,C6,C7,C9,C14","Capacitor_SMD:C_0402_1005Metric","C1525"
-"4.7uF","C3,C8,C10","Capacitor_SMD:C_0603_1608Metric","C19666"
-"FM-B2020RGBA-HG","D1","components:FM-B2020RGBA-HG","C108793"
-"i2c_connector","J1","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","C124378"
-"uart_connector","J2","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal","C492414"
-"spi_connector","J3","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C492405"
-"debug header","J4","Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical","C5665"
-"powerheader","J5","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","C124381 "
-"USB_B_Micro","J6","components:AMPHENOL_10118194-0001LF","C132563"
-"gpioheader A","J7","Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical",""
-"gpioheader B","J8","Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical",""
-"boot0_jumper","JP1","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","C49257"
-"boot1_jumper","JP2","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","C49257"
-"chargerOverride","JP3","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",""
-"1.13kΩ","R1","Resistor_SMD:R_0402_1005Metric","C67014"
-"10kΩ","R2","Resistor_SMD:R_0402_1005Metric","C25744"
-"68Ω","R3","Resistor_SMD:R_0402_1005Metric","C25131"
-"15Ω","R4,R5","Resistor_SMD:R_0402_1005Metric","C25083"
-"1.5kΩ ± 1%","R6","Resistor_SMD:R_0402_1005Metric"," C98835"
-"4.7kΩ","R7,R8,R9,R10","Resistor_SMD:R_0402_1005Metric"," C25900"
-"reset button","SW1","components:K2-6639DP-E4SW-04","C223748"
-"chargerOutput","TP1","TestPoint:TestPoint_Pad_D2.0mm",""
-"clockTestingPoint","TP2","TestPoint:TestPoint_Pad_D2.0mm",""
-"BQ24075","U1","Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm","C15464"
-"STM32F103C8Tx","U2","Package_QFP:LQFP-48_7x7mm_P0.5mm","C8304"
-"LP5907MFX-3.3","U3","Package_TO_SOT_SMD:SOT-23-5","C80670"
-"CAT24C128","U4","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C81195"
-"X322516MLB4SI","Y1","components:YSX321SL","C13738"
+103565 3.7v lipo battery,BT1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C152154 
+8pF,"C1,C2",Capacitor_SMD:C_0402_1005Metric,C26408
+10nf,C11,Capacitor_SMD:C_0603_1608Metric,C57112
+1uF,"C4,C12,C13",Capacitor_SMD:C_1206_3216Metric,C1848
+100nF,"C5,C6,C7,C9,C14",Capacitor_SMD:C_0402_1005Metric,C1525
+4.7uF,"C3,C8,C10",Capacitor_SMD:C_0603_1608Metric,C19666
+FM-B2020RGBA-HG,D1,components:FM-B2020RGBA-HG,C108793
+i2c_connector,J1,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,C124378
+uart_connector,J2,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal,C492414
+spi_connector,J3,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,C492405
+debug header,J4,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,C5665
+powerheader,J5,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,C124381 
+USB_B_Micro,J6,components:AMPHENOL_10118194-0001LF,C132563
+gpioheader A,J7,Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical,
+gpioheader B,J8,Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical,
+boot0_jumper,JP1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C49257
+boot1_jumper,JP2,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C49257
+chargerOverride,JP3,Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,
+1.13k,R1,Resistor_SMD:R_0402_1005Metric,C67014
+10k,R2,Resistor_SMD:R_0402_1005Metric,C25744
+68,R3,Resistor_SMD:R_0402_1005Metric,C25131
+15,"R4,R5",Resistor_SMD:R_0402_1005Metric,C25083
+1.5k,R6,Resistor_SMD:R_0402_1005Metric, C98835
+4.7k,"R7,R8,R9,R10",Resistor_SMD:R_0402_1005Metric, C25900
+reset button,SW1,components:K2-6639DP-E4SW-04,C223748
+chargerOutput,TP1,TestPoint:TestPoint_Pad_D2.0mm,
+clockTestingPoint,TP2,TestPoint:TestPoint_Pad_D2.0mm,
+BQ24075,U1,Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm,C15464
+STM32F103C8Tx,U2,Package_QFP:LQFP-48_7x7mm_P0.5mm,C8304
+LP5907MFX-3.3,U3,Package_TO_SOT_SMD:SOT-23-5,C80670
+CAT24C128,U4,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C81195
+X322516MLB4SI,Y1,components:YSX321SL,C13738

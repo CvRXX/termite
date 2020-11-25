@@ -23,7 +23,7 @@ F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1600 1550 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2200 2950 50  0001 C CNN
 F 4 "C8304" H 2200 2950 50  0001 C CNN "lcsc"
 F 5 "YES" H 2200 2950 50  0001 C CNN "pick&placed"
-F 6 "C8734" H 2200 2950 50  0001 C CNN "LCSC"
+F 6 "C8304" H 2200 2950 50  0001 C CNN "LCSC"
 	1    2200 2950
 	1    0    0    -1  
 $EndComp
@@ -525,9 +525,9 @@ F 0 "R6" V 10554 5800 50  0000 C CNN
 F 1 "1.5kΩ ± 1%" V 10645 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 10750 5800 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810191533_KOA-Speer-Elec-RK73H1ETTP1501F_C159953.pdf" H 10750 5800 50  0001 C CNN
-F 4 " C25867" V 10750 5800 50  0001 C CNN "lcsc"
+F 4 " " V 10750 5800 50  0001 C CNN "lcsc"
 F 5 "YES" H 10750 5800 50  0001 C CNN "pick&placed"
-F 6 "C25867" H 10750 5800 50  0001 C CNN "LCSC"
+F 6 " C98835" H 10750 5800 50  0001 C CNN "LCSC"
 	1    10750 5800
 	0    1    1    0   
 $EndComp
