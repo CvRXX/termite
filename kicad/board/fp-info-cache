@@ -1,4 +1,4 @@
-18989423812595282
+18991032860333282
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82955,7 +82955,14 @@ https://www.omron.com/ecb/products/pdf/en-b3f.pdf
 tact sw push 6mm
 0
 4
-4
+2
+components
+K301235D
+
+
+0
+3
+3
 components
 MountingHole_3.2mm_M3_rubber_foot
 Mounting Hole 3.2mm, no annular, M3
