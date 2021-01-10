@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 75)
+    (drawings 76)
     (tracks 845)
     (zones 0)
     (modules 59)
@@ -3077,6 +3077,9 @@
     )
   )
 
+  (gr_text ON (at 75.1 63.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text NC (at 44.2 60.25 90) (layer B.SilkS) (tstamp 5FFB75E5)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
