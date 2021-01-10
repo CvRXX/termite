@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 76)
+    (drawings 78)
     (tracks 845)
     (zones 0)
     (modules 59)
@@ -658,7 +658,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FC6DDD2)
-    (at 26.125 65.925)
+    (at 25.3 65.9)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /5FD0D6DD)
@@ -3077,6 +3077,12 @@
     )
   )
 
+  (gr_text + (at 27.8 64.3) (layer B.SilkS) (tstamp 5FFBCADA)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text + (at 27.8 64.3) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text ON (at 75.1 63.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -3298,8 +3304,6 @@
   (gr_line (start 78.232 55.88) (end 19.558 55.88) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 78.232 130.81) (end 78.232 55.88) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 26.875 66.675) (end 26.125 65.925) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 29.972 66.675) (end 26.875 66.675) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 34.11501 64.34001) (end 34.11501 65.3395) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 33.525 63.75) (end 34.11501 64.34001) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 34.46499 64.23999) (end 34.46499 65.3395) (width 0.5) (layer F.Cu) (net 1))
@@ -3308,6 +3312,8 @@
   (segment (start 31.825162 65.449838) (end 31.197162 65.449838) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 31.197162 65.449838) (end 29.972 66.675) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 33.525 63.75) (end 31.825162 65.449838) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 26.075 66.675) (end 25.3 65.9) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 29.972 66.675) (end 26.075 66.675) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 59.376504 73.382316) (end 59.376504 72.860955) (width 0.25) (layer F.Cu) (net 2))
   (via (at 59.376504 72.860955) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 58.299142 74.459678) (end 59.376504 73.382316) (width 0.25) (layer F.Cu) (net 2))
