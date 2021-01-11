@@ -1585,20 +1585,6 @@ F 5 "C4211" V 775 6775 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Battery_Management:BQ24075 U1
-U 1 1 5F66A66B
-P 1625 6475
-F 0 "U1" H 1325 7175 50  0000 C CNN
-F 1 "BQ24075" H 1325 7075 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 1875 5925 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/bq24075.pdf" H 1825 6675 50  0001 C CNN
-F 4 "" H 1625 6475 50  0001 C CNN "lcsc"
-F 5 "YES" H 1625 6475 50  0001 C CNN "pick&placed"
-F 6 "C15464" H 1625 6475 50  0001 C CNN "LCSC"
-	1    1625 6475
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR03
 U 1 1 5F642C93
 P 1025 6475
@@ -1787,31 +1773,6 @@ F 6 "C19666" H 2325 5925 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
-U 1 1 5F681107
-P 1025 7075
-F 0 "#PWR05" H 1025 6825 50  0001 C CNN
-F 1 "GND" H 1030 6902 50  0000 C CNN
-F 2 "" H 1025 7075 50  0001 C CNN
-F 3 "" H 1025 7075 50  0001 C CNN
-	1    1025 7075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5F67CC2D
-P 1025 6975
-F 0 "R1" H 966 6929 50  0000 R CNN
-F 1 "1.8kΩ" H 966 7020 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1025 6975 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1801T5E_C4177.pdf" H 1025 6975 50  0001 C CNN
-F 4 " " H 1025 6975 50  0001 C CNN "lcsc"
-F 5 "YES" H 1025 6975 50  0001 C CNN "pick&placed"
-F 6 "C4177" H 1025 6975 50  0001 C CNN "LCSC"
-	1    1025 6975
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5F67BCB0
 P 1025 6075
@@ -1945,14 +1906,71 @@ F 3 "" H 1625 5775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5FFB8250
 P 2500 6775
-F 0 "#PWR?" H 2500 6525 50  0001 C CNN
+F 0 "#PWR0110" H 2500 6525 50  0001 C CNN
 F 1 "GND" H 2505 6602 50  0000 C CNN
 F 2 "" H 2500 6775 50  0001 C CNN
 F 3 "" H 2500 6775 50  0001 C CNN
 	1    2500 6775
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F67CC2D
+P 850 7100
+F 0 "R1" H 791 7054 50  0000 R CNN
+F 1 "1.8kΩ" H 791 7145 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 850 7100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1801T5E_C4177.pdf" H 850 7100 50  0001 C CNN
+F 4 " " H 850 7100 50  0001 C CNN "lcsc"
+F 5 "YES" H 850 7100 50  0001 C CNN "pick&placed"
+F 6 "C4177" H 850 7100 50  0001 C CNN "LCSC"
+	1    850  7100
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F681107
+P 850 7200
+F 0 "#PWR05" H 850 6950 50  0001 C CNN
+F 1 "GND" H 855 7027 50  0000 C CNN
+F 2 "" H 850 7200 50  0001 C CNN
+F 3 "" H 850 7200 50  0001 C CNN
+	1    850  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:BQ24075 U1
+U 1 1 5F66A66B
+P 1625 6475
+F 0 "U1" H 1325 7175 50  0000 C CNN
+F 1 "BQ24075" H 1325 7075 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 1875 5925 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq24075.pdf" H 1825 6675 50  0001 C CNN
+F 4 "" H 1625 6475 50  0001 C CNN "lcsc"
+F 5 "YES" H 1625 6475 50  0001 C CNN "pick&placed"
+F 6 "C15464" H 1625 6475 50  0001 C CNN "LCSC"
+	1    1625 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FFD296B
+P 1025 7025
+F 0 "TP4" H 967 7051 50  0000 R CNN
+F 1 "batcurrent" H 967 7142 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1225 7025 50  0001 C CNN
+F 3 "~" H 1225 7025 50  0001 C CNN
+	1    1025 7025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1025 6875 1025 7000
+Wire Wire Line
+	1025 7000 850  7000
+Connection ~ 1025 7000
+Wire Wire Line
+	1025 7000 1025 7025
 $EndSCHEMATC
